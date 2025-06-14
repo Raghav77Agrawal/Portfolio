@@ -26,6 +26,16 @@ if (!email || !msg) {
   })
   res.json({message:'Message sent successfully'});
 });
+//new route to download data
+app.get('/download-data', (req, res) => {
+  const filePath = path.join(__dirname, 'data.txt');
+  res.download(filePath, 'messages.txt', (err) => {
+    if (err) {
+      console.error('Download error:', err);
+      res.status(500).send('Error downloading the file.');
+    }
+  });
+});
 app.listen(port,()=>{
 console.log('Port running');
 })
