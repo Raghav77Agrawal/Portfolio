@@ -1,8 +1,10 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
 const path = require('path'); 
 const app = express();
+const port = process.env.port || 8000;
 app.use(cors());
 app.use(express.json());
 app.post('/',(req,res)=>{
@@ -16,7 +18,6 @@ if (!email || !msg) {
 
   const filePath = path.join(__dirname, "data.txt");
 
-  // Append to file
   fs.appendFile(filePath, entry, (err) => {
     if (err) {
       console.error("Error writing to file:", err);
@@ -25,6 +26,6 @@ if (!email || !msg) {
   })
   res.json({message:'Message sent successfully'});
 });
-app.listen(8000,()=>{
+app.listen(port,()=>{
 console.log('Port running');
 })
