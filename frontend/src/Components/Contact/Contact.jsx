@@ -6,24 +6,23 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function Contact(){
 const [email,setemail] = useState('');
 const [msg,setmsg] = useState('');
- const xr = import.meta.env.viteurl;
+ const xr = import.meta.env.VITE_URL;
 const handlesubmit = async (e)=>{
 
 e.preventDefault();
+console.log("Env URL:", xr);
   const x = await fetch(`${xr}`,{
     method:'POST',
     headers:{"Content-type":"application/json"},
     body:JSON.stringify({email,msg}),
   });
-  
-const data = await x.json();
 if(x.ok){
   alert('I will reach you soon');
   setemail('');
   setmsg('');
 }
 else{
-  alert(data.message);
+  alert( 'an error occured');
 }
 }
 

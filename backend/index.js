@@ -7,8 +7,9 @@ const app = express();
 const port = process.env.port || 8000;
 app.use(cors());
 app.use(express.json());
-app.post('/',(req,res)=>{
+app.post('/contact',(req,res)=>{
 const {email,msg} = req.body;
+
 if (!email || !msg) {
     return res.status(400).json({ message: "Missing fields" });
   }
