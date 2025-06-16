@@ -1,11 +1,11 @@
 
 function Home2(){
     return (<>
-    <h1 style={{ fontSize: "2.6em" ,textAlign:'left',paddingLeft:'3rem'}}>
+    <h1 style={{ textAlign:'left',paddingLeft:'1.5rem'}} className="hh">
               LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
             <div style = {{display:'flex',height:'60vh',width:'80vw', justifyContent:'space-between' }}>
-              <div style = {{height:'60vh',alignContent:'center',width:'50vw'}}>
+              <div style = {{height:'60vh',width:'50vw',paddingTop:'5rem'}}>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
@@ -33,7 +33,7 @@ function Home2(){
               
             </p>
             </div>
-            <img src='/image.png' style={{height:'60vh', width:'20vw',}}></img>
+            <img src='/image.png'  className="gih"></img>
             </div>
            
 

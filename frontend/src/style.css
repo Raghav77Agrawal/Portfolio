@@ -56,8 +56,7 @@ html{
 }
 
 .home-about-body {
-  padding-top: 50px;
-  font-size: 1.2em !important;
+  font-size: 1.2rem;
   text-align: left;
 }
 
@@ -242,4 +241,77 @@ padding: 15px;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+}
+.rx{
+  font-size: 2.5rem;
+  padding-left: 8rem;
+}
+.rrr{
+  height: 60vh;
+  width:30vw;
+}
+.hh{
+  font-size: 2.5rem;
+}
+.gih{
+  height:60vh;
+  width:20vw;
+}
+.ii{
+  display:flex;
+  justify-content: center;
+}
+.iii{
+  width:40%;
+  font-size: 1.2rem;
+  padding-left: 0rem;
+}
+.ix{
+  width:40%;
+  height:60vh;
+  margin-left: 0rem;
+}
+.st{
+  font-size: 2rem;
+  width:40%;
+  text-align: center;
+  margin-left:5rem;
+  padding-bottom: 2rem;
+}
+@media (max-width:750px) {
+  .rx{
+font-size: 1rem;
+padding-left:3rem
+  }
+  .rrr{
+    width:50vw;
+  }
+  .hh{
+    font-size: 2rem;
+  }
+  .home-about-body{
+font-size: 0.8rem;
+  }
+  .gih{
+    height:40vh;
+    width:25vw;
+  }
+  .ii{
+    display:block;
+
+  }
+  .iii{
+width:100%;
+font-size: 1rem;
+padding-left: 0.5rem;
+  }
+  .ix{
+    width:60vw;
+    height:50vh;
+    margin-left: 3rem;
+  }
+  .st{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
 }
