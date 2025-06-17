@@ -1,10 +1,10 @@
-html{
+html {
   background-color: black;
   padding: 0px;
-  margin:0px;
+  margin: 0px;
 }
-.blue{
-  color:rgb(39,170,222)
+.blue {
+  color: rgb(39, 170, 222);
 }
 
 .wave {
@@ -68,8 +68,7 @@ html{
 
 .home-about-social-links {
   justify-content: center !important;
- display:flex;
- flex-direction:column,
+  display: flex;
 }
 
 .home-social-icons {
@@ -82,42 +81,41 @@ html{
   border-radius: 50% !important;
 }
 
-
-
 .social-icons {
-padding: 15px;
+  padding: 15px;
 }
 
 .icon-colour {
-  color: rgb(39,170,222);
+  color: rgb(39, 170, 222);
 }
 .about-section {
-  
   padding-top: 10vh;
   padding-bottom: 30px !important;
   color: white !important;
 }
 
 .tech-icons {
- background-color: black;
-  width: 25%;             /* fixed width */
-  height: 25vh;  
-  gap:2rem;          /* fixed height */
+  background-color: black;
+  width: 25%; /* fixed width */
+  height: 25vh;
+  gap: 2rem; /* fixed height */
   display: flex;
-  border:1px solid rgb(0, 115, 255);
-  justify-content: center;  /* center icon horizontally */
-  align-items: center;      /* center icon vertically */
+  border: 1px solid rgb(0, 115, 255);
+  justify-content: center; /* center icon horizontally */
+  align-items: center; /* center icon vertically */
   border-radius: 10px;
-  font-size: 7rem;          /* icon size */
+  font-size: 4rem; /* icon size */
   cursor: pointer;
   transition: all 0.4s ease 0s !important;
-  
+}
+.sss{
+  height:70vh;
 }
 .tech-box {
   display: flex;
-  justify-content: center;  /* center icons horizontally */
-  gap: 20px;                /* space between icons */
-  margin-bottom: 30px;      /* space between each row */
+  justify-content: center; /* center icons horizontally */
+  gap: 20px; /* space between icons */
+  margin-bottom: 30px; /* space between each row */
 }
 @media (max-width: 767px) {
   .tech-icons {
@@ -128,7 +126,7 @@ padding: 15px;
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgb(39,170,222) !important;
+  border: 2.2px solid rgb(39, 170, 222) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -140,8 +138,6 @@ padding: 15px;
   color: white !important;
   background-color: transparent !important;
 }
-
-
 
 @media (max-width: 767px) {
   .about-img {
@@ -169,7 +165,7 @@ padding: 15px;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
-  height: 75vh !important;
+  height: 75vh;
   width: 25vw;
 }
 .project-card-view:hover {
@@ -229,8 +225,8 @@ padding: 15px;
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: rgb(39,170,222) !important;
-  border-color: rgb(39,170,222) !important;
+  background-color: rgb(39, 170, 222) !important;
+  border-color: rgb(39, 170, 222) !important;
 }
 .btn:focus {
   outline: none !important;
@@ -242,76 +238,109 @@ padding: 15px;
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
-.rx{
+.carddiv {
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 3rem;
+  background-color: black;
+}
+
+.rx {
   font-size: 2.5rem;
   padding-left: 8rem;
 }
-.rrr{
+.rrr {
   height: 60vh;
-  width:30vw;
 }
-.hh{
+.hh {
   font-size: 2.5rem;
 }
-.gih{
-  height:60vh;
-  width:20vw;
+.gih {
+  height: 60vh;
+  width: 20vw;
 }
-.ii{
-  display:flex;
+.ii {
+  display: flex;
   justify-content: center;
 }
-.iii{
-  width:40%;
+.iii {
+  width: 40%;
   font-size: 1.2rem;
   padding-left: 0rem;
 }
-.ix{
-  width:40%;
-  height:60vh;
+.ix {
+  width: 40%;
+  height: 60vh;
   margin-left: 0rem;
 }
-.st{
+.st {
   font-size: 2rem;
-  width:40%;
+  width: 40%;
   text-align: center;
-  margin-left:5rem;
+  margin-left: 5rem;
   padding-bottom: 2rem;
 }
-@media (max-width:750px) {
-  .rx{
-font-size: 1rem;
-padding-left:3rem
+.cardimg{
+  height:35vh;
+  width:25vw;
+}
+@media (max-width: 750px) {
+  .rx {
+    font-size: 1rem;
+    padding-left: 3rem;
   }
-  .rrr{
-    width:50vw;
+  .rrr {
+    width: 50vw;
+    height: 30vh;
   }
-  .hh{
-    font-size: 2rem;
+  .hh {
+    font-size: 1.2rem;
   }
-  .home-about-body{
-font-size: 0.8rem;
+  .home-about-body {
+    font-size: 0.7rem;
   }
-  .gih{
-    height:40vh;
-    width:25vw;
+  .gih {
+    margin-top: 60px;
+    height: 30vh;
+    width: 35vw;
   }
-  .ii{
-    display:block;
-
+  .ii {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
-  .iii{
-width:100%;
-font-size: 1rem;
-padding-left: 0.5rem;
+  .iii {
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 2rem;
   }
-  .ix{
-    width:60vw;
-    height:50vh;
+  .ix {
+    width: 60vw;
+    height: 50vh;
     margin-left: 3rem;
   }
-  .st{
-    font-size: 1.5rem;
+  .st {
+    font-size: 1.2rem;
     margin-top: 1rem;
+  }
+  .carddiv{
+    flex-direction: column;
+    height:90%;
+    padding-top: 0rem;
+    align-items: center;
+    gap:3rem;
+  }
+  .project-card-view{
+width:80%;
+height:65vh;
+  }
+  .cardimg{
+    width:100%;
+  }
+  .sss{
+    height: 50vh;
   }
 }

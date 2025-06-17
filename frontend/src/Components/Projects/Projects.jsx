@@ -31,15 +31,7 @@ export default function Projects() {
         </p>
 </div>
         <div
-          style={{
-            height:'75vh',
-            width:'100%',
-            display: "flex",
-            justifyContent: "center",
-            gap: "2rem",
-            paddingTop: "3rem",
-            backgroundColor:'black'
-          }}
+          className="carddiv"
         >
         
             <ProjectCards
@@ -66,15 +58,7 @@ export default function Projects() {
         </div>
           <div style={{backgroundColor:'black',height:'10vh',width:'100%'}}></div>
         <div
-          style={{
-            height:'75vh',
-            width:'100%',
-            display: "flex",
-            justifyContent: "center",
-            gap: "2rem",
-            paddingTop: "3rem",
-            backgroundColor:'black'
-          }}
+          className="carddiv"
         >
          
             <ProjectCards

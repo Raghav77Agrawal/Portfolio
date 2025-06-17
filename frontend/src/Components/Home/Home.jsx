@@ -10,13 +10,14 @@ export default function Home() {
       <div
         style={{
           backgroundColor: "rgb(2, 4, 7)",
-          height: "70vh",
+          
           width: "100%",
           display: "flex",
           paddingTop: "6rem",
           color: "white",
           gap:'1rem'
         }}
+        className="sss"
       >
         <div
           style={{

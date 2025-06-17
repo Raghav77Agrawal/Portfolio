@@ -5,7 +5,7 @@ function Home2(){
               LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
             <div style = {{display:'flex',height:'60vh',width:'80vw', justifyContent:'space-between' }}>
-              <div style = {{height:'60vh',width:'50vw',paddingTop:'5rem'}}>
+              <div style = {{height:'60vh',width:'50vw',marginTop:'6rem'}}>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
